@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6917e8">
+  <meta name="description" content="AUKANTUN. Conoce al equipo, descubre BioteCard y nuestros próximos proyectos, encuentra las redes sociales y comparte tus ideas.">
+  <meta property="og:title" content="AUKANTUN — Tu próxima jugada">
+  <meta property="og:description" content="Crear. Jugar. Compartir. Entra al mundo de AUKANTUN.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aukantun-persona-rebel.felipelzm02.chatgpt.site">
+  <title>AUKANTUN — Tu próxima jugada</title>
+  <link rel="icon" href="assets/aukantun-emblem.png" type="image/png">
+  <link rel="preload" href="assets/menu-bold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#commands">Ir al menú principal</a>
+  <svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="spark" viewBox="0 0 100 100"><path d="m50 0 9 35 28-24-18 33 31 6-31 10 18 29-29-20-8 31-10-32-27 21 18-30L0 50l33-8-20-29 28 21Z"/></symbol>
+    <symbol id="arrow" viewBox="0 0 60 50"><path d="M0 15h32L25 0l35 25-35 25 7-15H0Z"/></symbol>
+    <symbol id="instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="tiktok" viewBox="0 0 24 24"><path d="M14 3v12.5a4.5 4.5 0 1 1-4-4.47M14 3c0 4 3 6 6 6V6c-3-.2-3-3-3-3Z"/></symbol>
+    <symbol id="youtube" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z" fill="currentColor" stroke="none"/></symbol>
+  </defs></svg>
+
+  <main class="stage" id="home">
+    <div class="backdrop" aria-hidden="true">
+      <div class="purple-field"></div><div class="halftone"></div>
+      <div class="ink-cut ink-cut-one"></div><div class="ink-cut ink-cut-two"></div>
+      <div class="paper-cut"></div>
+      <div class="backdrop-type">AUKANTUN</div>
+      <div class="speed-lines"></div>
+      <svg class="back-spark" viewBox="0 0 100 100"><use href="#spark"/></svg>
+    </div>
+
+    <header class="header">
+      <a class="brand" href="#home" aria-label="AUKANTUN TEAM, inicio"><img src="assets/aukantun-wordmark.png" alt="AUKANTUN TEAM" width="230" height="103"></a>
+      <div class="header-note"><span class="tiny-star" aria-hidden="true">✦</span><span>CREAR. JUGAR.<br><b>COMPARTIR.</b></span></div>
+      <button class="motion-control" id="motion-control" type="button" aria-pressed="false" aria-label="Pausar animación"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-text">ANIMACIÓN ON</span></button>
+    </header>
+
+    <div class="main-layout">
+      <section class="menu-column" aria-labelledby="page-title">
+        <div class="intro">
+          <p class="eyebrow"><span>01</span> MENÚ PRINCIPAL</p>
+          <h1 id="page-title"><span>TU PRÓXIMA</span><strong>JUGADA.</strong><i aria-hidden="true">✦</i></h1>
+          <p class="intro-caption">ELIGE DÓNDE EMPIEZA.</p>
+        </div>
+
+        <nav class="command-list" id="commands" aria-label="Menú principal de AUKANTUN">
+          <button class="command is-selected" type="button" data-action="team" data-index="0" aria-haspopup="dialog" aria-controls="detail-panel" data-title="SOBRE NOSOTROS" data-description="Ciencia, arte y comunicación. Conoce al equipo." aria-label="Sobre nosotros" style="--step:0;--offset:12px">
+            <span class="command-selector" aria-hidden="true"><svg><use href="#arrow"/></svg></span><span class="command-key" aria-hidden="true">△</span><span class="command-label">NOSOTROS</span><span class="command-number" aria-hidden="true">01</span>
+          </button>
+          <button class="command" type="button" data-action="networks" data-index="1" aria-haspopup="dialog" aria-controls="detail-panel" data-title="REDES SOCIALES" data-description="Instagram, TikTok y YouTube. Elige tu canal." style="--step:1;--offset:37px">
+            <span class="command-selector" aria-hidden="true"><svg><use href="#arrow"/></svg></span><span class="command-key" aria-hidden="true">□</span><span class="command-label command-label--long">REDES SOCIALES</span><span class="command-number" aria-hidden="true">02</span>
+          </button>
+          <button class="command" type="button" data-action="projects" data-index="2" aria-haspopup="dialog" aria-controls="detail-panel" data-title="PROYECTOS" data-description="Descubre BioteCard. Más ideas vienen en camino." style="--step:2;--offset:5px">
+            <span class="command-selector" aria-hidden="true"><svg><use href="#arrow"/></svg></span><span class="command-key" aria-hidden="true">×</span><span class="command-label">PROYECTOS</span><span class="command-number" aria-hidden="true">03</span>
+          </button>
+          <a class="command" href="https://aukantun.framer.website" target="_blank" rel="noopener noreferrer" data-index="3" data-title="FEEDBACK" data-description="Tu opinión también es parte de la próxima jugada." aria-label="Feedback de AUKANTUN, abre en otra pestaña" style="--step:3;--offset:28px">
+            <span class="command-selector" aria-hidden="true"><svg><use href="#arrow"/></svg></span><span class="command-key" aria-hidden="true">○</span><span class="command-label">FEEDBACK</span><span class="command-number" aria-hidden="true">↗</span>
+          </a>
+          <button class="command" type="button" data-action="contact" data-index="4" aria-haspopup="dialog" aria-controls="detail-panel" data-title="CONTACTO" data-description="Hablemos por correo o Instagram." style="--step:4;--offset:0px">
+            <span class="command-selector" aria-hidden="true"><svg><use href="#arrow"/></svg></span><span class="command-key key-star" aria-hidden="true">✦</span><span class="command-label">CONTACTO</span><span class="command-number" aria-hidden="true">05</span>
+          </button>
+        </nav>
+      </section>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-parallax">
+          <svg class="hero-explosion" viewBox="0 0 700 740"><path class="explosion-shadow" d="M352 90 448 0 443 186 664 97 522 286 700 338 527 394 675 615 440 537 463 739 323 576 177 722 206 509 0 567 158 378 12 257 224 252 169 32Z"/><path class="explosion-paper" d="m347 125 53-89 6 172 200-70-130 166 161 40-170 41 138 166-182-52 11 175-118-135-98 107 17-154-172 41 124-161L58 277l193 13-36-157 103 96Z"/></svg>
+          <div class="mask-float">
+            <div class="mask-inner"></div>
+            <img class="hero-emblem" src="assets/aukantun-emblem.png" alt="" width="1313" height="1198" fetchpriority="high">
+          </div>
+          <div class="hero-stamp"><span>ESTO ES</span><strong>AUKANTUN.</strong><small>UN EQUIPO. MUCHAS JUGADAS.</small></div>
+          <svg class="art-star star-one" viewBox="0 0 100 100"><use href="#spark"/></svg>
+          <svg class="art-star star-two" viewBox="0 0 100 100"><use href="#spark"/></svg>
+          <span class="orbit-mark mark-cross">×</span><span class="orbit-mark mark-square">□</span>
+        </div>
+        <div class="art-side-label">JUGAR ES SOLO EL COMIENZO</div>
+      </div>
+    </div>
+
+    <aside class="selection-note" aria-label="Opción del menú seleccionada">
+      <span class="note-index" id="note-index">01</span>
+      <div><p id="note-title">SOBRE NOSOTROS</p><span id="note-description">Ciencia, arte y comunicación. Conoce al equipo.</span></div>
+      <span class="note-star" aria-hidden="true">✦</span>
+    </aside>
+
+    <footer class="footer">
+      <span class="footer-copyright">© 2026 Aukantun Team</span>
+      <p class="keyboard-hint"><kbd>↑</kbd><kbd>↓</kbd> ELEGIR <span>/</span> <kbd>↵</kbd> ENTRAR</p>
+      <p class="touch-hint">TOCA UNA OPCIÓN Y ENTRA</p>
+      <span class="footer-powered">Powered by <strong>RAVEN</strong> <span aria-hidden="true">|</span> <span lang="ja">プログラム</span></span>
+    </footer>
+  </main>
+
+  <dialog class="detail-panel" id="detail-panel" aria-labelledby="detail-title">
+    <button class="close-panel" type="button" aria-label="Cerrar ventana"><span aria-hidden="true">×</span><span>VOLVER</span></button>
+    <div class="detail-paper">
+      <div class="detail-heading"><p>AUKANTUN / <span id="detail-category">SOBRE NOSOTROS</span></p><h2 id="detail-title">CIENCIA, ARTE<br>Y COMUNIDAD.</h2><img src="assets/aukantun-emblem.png" alt="" width="90" height="83"></div>
+      <div class="detail-tabs" role="tablist" aria-label="Secciones de AUKANTUN">
+        <button id="tab-team" type="button" role="tab" aria-controls="detail-content" aria-selected="true" tabindex="0" data-action="team">NOSOTROS</button>
+        <button id="tab-networks" type="button" role="tab" aria-controls="detail-content" aria-selected="false" tabindex="-1" data-action="networks">REDES</button>
+        <button id="tab-projects" type="button" role="tab" aria-controls="detail-content" aria-selected="false" tabindex="-1" data-action="projects">PROYECTOS</button>
+        <button id="tab-contact" type="button" role="tab" aria-controls="detail-content" aria-selected="false" tabindex="-1" data-action="contact">CONTACTO</button>
+      </div>
+      <div id="detail-content" role="tabpanel" aria-labelledby="tab-team" tabindex="0"></div>
+      <div class="detail-foot"><span>CREAR. JUGAR. COMPARTIR.</span><span><kbd>ESC</kbd> VOLVER</span></div>
+    </div>
+  </dialog>
+
+  <template id="team-template">
+    <p class="detail-lead">Somos Aukantun Team.</p>
+    <p>Conectamos ciencia, arte y comunicación para convertir ideas en experiencias de juego. La creación artística de Agustín Martínez y la coordinación de Esteban Silva, ambos fundadores, se complementan con el trabajo de Sebastián Ortega en comunidad y coordinación, y de Felipe Lizama en la gestión de redes.</p>
+    <p>Con BioteCard, esa combinación toma forma en un juego de cartas inspirado en la biodiversidad. Seguimos explorando nuevas ideas para aprender, crear y compartir.</p>
+    <ul class="team-roster" aria-label="Integrantes de Aukantun Team">
+      <li><span class="member-id" aria-hidden="true">01</span><div><h3>Agustín Martínez <small>Bt.</small></h3><p>Fundador · Artista</p></div></li>
+      <li><span class="member-id" aria-hidden="true">02</span><div><h3>Esteban Silva <small>Ing. Agr.</small></h3><p>Fundador · Coordinador</p></div></li>
+      <li><span class="member-id" aria-hidden="true">03</span><div><h3>Sebastián Ortega <small>Bt.</small></h3><p>Community Manager · Coordinador</p></div></li>
+      <li><span class="member-id" aria-hidden="true">04</span><div><h3>Felipe Lizama <small>Bt.</small></h3><p>CM (2nd) · SMM</p></div></li>
+    </ul>
+  </template>
+  <template id="networks-template">
+    <p class="detail-lead">Elige tu canal.</p>
+    <p>Sigue al equipo, descubre lo que estamos creando y acompáñanos en la próxima jugada.</p>
+    <div class="social-links" aria-label="Redes sociales del equipo">
+      <a href="https://www.instagram.com/aukantun_team/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, abre en otra pestaña"><svg aria-hidden="true"><use href="#instagram"/></svg><span>INSTAGRAM<small>@aukantun_team</small></span><b aria-hidden="true">↗</b></a>
+      <a href="https://www.tiktok.com/@aukantun_team" target="_blank" rel="noopener noreferrer" aria-label="TikTok, abre en otra pestaña"><svg aria-hidden="true"><use href="#tiktok"/></svg><span>TIKTOK<small>@aukantun_team</small></span><b aria-hidden="true">↗</b></a>
+      <a href="https://www.youtube.com/@aktstudios-s" target="_blank" rel="noopener noreferrer" aria-label="YouTube, abre en otra pestaña"><svg aria-hidden="true"><use href="#youtube"/></svg><span>YOUTUBE<small>@aktstudios-s</small></span><b aria-hidden="true">↗</b></a>
+    </div>
+  </template>
+  <template id="projects-template">
+    <article class="project-card">
+      <div class="project-brand"><span>01 / PROYECTO</span><img src="assets/biotecard-logo.png" alt="BioteCard" loading="lazy"></div>
+      <div class="project-copy"><p class="project-type">BIOLOGÍA + ESTRATEGIA</p><h3>BioteCard</h3><p>Un juego de cartas para descubrir la biodiversidad y construir tu estrategia con animales, plantas, hongos y bacterias. Explora la colección, conoce las reglas y encuentra herramientas para acompañar tu partida.</p>
+        <ul class="project-tags" aria-label="Características del proyecto"><li>50 organismos</li><li>Juego de cartas</li><li>En desarrollo</li></ul>
+        <a class="project-link" href="https://pipelzm.github.io/biotecard/" target="_blank" rel="noopener noreferrer">EXPLORAR BIOTECARD <span aria-hidden="true">↗</span><span class="sr-only">(abre en otra pestaña)</span></a>
+      </div>
+    </article>
+    <aside class="coming-next"><span>PRÓXIMAMENTE</span><h3>MÁS IDEAS EN CAMINO.</h3><p>Este espacio irá creciendo con nuevos proyectos del equipo. La próxima jugada todavía está por descubrir.</p></aside>
+  </template>
+  <template id="contact-template">
+    <p class="detail-lead">¿Qué estás imaginando?</p>
+    <p>Una propuesta, una colaboración o simplemente un saludo. Escríbenos por correo o Instagram y empecemos la conversación.</p>
+    <a class="contact-email" href="mailto:kitunteam@gmail.com"><span>CORREO DEL EQUIPO</span><strong>kitunteam@gmail.com</strong><b aria-hidden="true">↗</b></a>
+    <a class="message-link" href="https://www.instagram.com/aukantun_team/" target="_blank" rel="noopener noreferrer">INSTAGRAM <span aria-hidden="true">↗</span><span class="sr-only">(abre en otra pestaña)</span></a>
+    <p class="account-name">@aukantun_team</p>
+  </template>
+</body>
+</html>
